@@ -12,6 +12,10 @@
 		FA70B1C6216FFEE9005C1739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA70B1C4216FFEE9005C1739 /* Main.storyboard */; };
 		FA70B1C8216FFEEC005C1739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA70B1C7216FFEEC005C1739 /* Assets.xcassets */; };
 		FA70B1CB216FFEEC005C1739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA70B1C9216FFEEC005C1739 /* LaunchScreen.storyboard */; };
+		FA70B1D521700143005C1739 /* DataModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70B1D421700143005C1739 /* DataModal.swift */; };
+		FA70B1D721700325005C1739 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70B1D621700325005C1739 /* HeaderView.swift */; };
+		FA70B1D921712617005C1739 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70B1D821712617005C1739 /* DetailsViewController.swift */; };
+		FA70B1DB217141FC005C1739 /* tableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70B1DA217141FC005C1739 /* tableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		FA70B1C7216FFEEC005C1739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA70B1CA216FFEEC005C1739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA70B1CC216FFEEC005C1739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA70B1D421700143005C1739 /* DataModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModal.swift; sourceTree = "<group>"; };
+		FA70B1D621700325005C1739 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FA70B1D821712617005C1739 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		FA70B1DA217141FC005C1739 /* tableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				FA70B1C7216FFEEC005C1739 /* Assets.xcassets */,
 				FA70B1C9216FFEEC005C1739 /* LaunchScreen.storyboard */,
 				FA70B1CC216FFEEC005C1739 /* Info.plist */,
+				FA70B1D421700143005C1739 /* DataModal.swift */,
+				FA70B1D621700325005C1739 /* HeaderView.swift */,
+				FA70B1D821712617005C1739 /* DetailsViewController.swift */,
+				FA70B1DA217141FC005C1739 /* tableViewCell.swift */,
 			);
 			path = Expandable_TableView;
 			sourceTree = "<group>";
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA70B1C3216FFEE9005C1739 /* ViewController.swift in Sources */,
+				FA70B1D521700143005C1739 /* DataModal.swift in Sources */,
 				FA70B1C1216FFEE9005C1739 /* AppDelegate.swift in Sources */,
+				FA70B1D721700325005C1739 /* HeaderView.swift in Sources */,
+				FA70B1D921712617005C1739 /* DetailsViewController.swift in Sources */,
+				FA70B1DB217141FC005C1739 /* tableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
