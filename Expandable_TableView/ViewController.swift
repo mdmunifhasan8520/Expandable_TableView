@@ -11,7 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var tblView: UITableView!
-    var permanentStorage: UITableView! = nil
+    
+    
     var data = [
    
          DataMadal(headerName: "Alert Signs", subType: ["Trafic light","Round About", "Double Bend First Left", "Dual Carriageway Ends", "Height Limit Ahead", "Road Narrow On Both Sides","Road Narrows In The Right","Sharp Bend To The Right","Steep Hill Downwards","Steep Hill Upwards","Two Way Traffic Straight Ahead"], subTypeImage: ["trafic_light","round_about", "Double_Bend_First_Left", "Dual_Carriageway_Ends", "Height_Limit_Ahead", "Road_Narrow_On_Both_Sides","Road_Narrows_In_The_Right","sharp_bend_to_the_right","Steep_Hill_Downwards","Steep_Hill_Upwards","Two_way_Traffic_Straight_Ahead"], isExpandable: false),
@@ -140,8 +141,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 
 extension ViewController: HeaderDelegate {
     func calHeader(idx: Int) {
+       
         data[idx].isExpandable = !data[idx].isExpandable
+        
         tblView.reloadSections([idx], with: .automatic)
+        print(data[idx].isExpandable)
     }
     
     

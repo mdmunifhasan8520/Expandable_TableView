@@ -16,6 +16,8 @@
 		FA70B1D721700325005C1739 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70B1D621700325005C1739 /* HeaderView.swift */; };
 		FA70B1D921712617005C1739 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70B1D821712617005C1739 /* DetailsViewController.swift */; };
 		FA70B1DB217141FC005C1739 /* tableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70B1DA217141FC005C1739 /* tableViewCell.swift */; };
+		FA70B1F12172FE49005C1739 /* js in Resources */ = {isa = PBXBuildFile; fileRef = FA70B1EF2172FE49005C1739 /* js */; };
+		FA70B1F721730304005C1739 /* html in Resources */ = {isa = PBXBuildFile; fileRef = FA70B1F621730304005C1739 /* html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		FA70B1D621700325005C1739 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		FA70B1D821712617005C1739 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		FA70B1DA217141FC005C1739 /* tableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewCell.swift; sourceTree = "<group>"; };
+		FA70B1EF2172FE49005C1739 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		FA70B1F621730304005C1739 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = ../../html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 		FA70B1BF216FFEE9005C1739 /* Expandable_TableView */ = {
 			isa = PBXGroup;
 			children = (
+				FA70B1F621730304005C1739 /* html */,
+				FA70B1EF2172FE49005C1739 /* js */,
 				FA70B1C0216FFEE9005C1739 /* AppDelegate.swift */,
 				FA70B1C2216FFEE9005C1739 /* ViewController.swift */,
 				FA70B1C4216FFEE9005C1739 /* Main.storyboard */,
@@ -134,9 +140,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA70B1F12172FE49005C1739 /* js in Resources */,
 				FA70B1CB216FFEEC005C1739 /* LaunchScreen.storyboard in Resources */,
 				FA70B1C8216FFEEC005C1739 /* Assets.xcassets in Resources */,
 				FA70B1C6216FFEE9005C1739 /* Main.storyboard in Resources */,
+				FA70B1F721730304005C1739 /* html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

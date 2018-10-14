@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Expandable_TableView/DetailsViewController.swift"
+            timestampString = "561186629.1821719"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "DetailsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Expandable_TableView.DetailsViewController.myWeb.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.WKWebView&gt;"
+                  moduleName = "Expandable_TableView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBook/Desktop/Expandable_TableView/Expandable_TableView/DetailsViewController.swift"
+                  timestampString = "561180088.5727611"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Expandable_TableView.DetailsViewController.myWeb.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.WKWebView&gt;"
+                  moduleName = "Expandable_TableView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBook/Desktop/Expandable_TableView/Expandable_TableView/DetailsViewController.swift"
+                  timestampString = "561180088.639364"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Expandable_TableView.DetailsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Expandable_TableView.DetailsViewController"
+                  moduleName = "Expandable_TableView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBook/Desktop/Expandable_TableView/Expandable_TableView/DetailsViewController.swift"
+                  timestampString = "561180088.644114"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "592">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Expandable_TableView.DetailsViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Expandable_TableView.DetailsViewController&gt;"
+                  moduleName = "Expandable_TableView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBook/Desktop/Expandable_TableView/Expandable_TableView/DetailsViewController.swift"
+                  timestampString = "561180088.647052"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "520">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
