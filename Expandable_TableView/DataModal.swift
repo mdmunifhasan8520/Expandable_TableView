@@ -9,12 +9,14 @@
 import Foundation
 
 class DataMadal {
+    var headerImage: String?
     var headerName: String?
     var subType = [String]()
     var subTypeImage = [String]()
     var isExpandable: Bool = false
     
-    init(headerName: String, subType: [String],subTypeImage: [String], isExpandable: Bool) {
+    init(headerImage: String, headerName: String, subType: [String],subTypeImage: [String], isExpandable: Bool) {
+        self.headerImage = headerImage
         self.headerName = headerName
         self.subType = subType
         self.subTypeImage = subTypeImage

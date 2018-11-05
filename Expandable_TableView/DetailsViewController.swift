@@ -139,6 +139,86 @@ class DetailsViewController: UIViewController, WKNavigationDelegate {
             detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road."
             
         }
+        if detailTitle.text == "No Overtaking" {
+            
+            detailTextView.text = "The no overtaking road sign is circular with a red border meaning that it is giving drivers an order. As the no overtaking sign is regulatory, it is illegal to overtake. The no overtaking restriction ends when the lines in the road change from a continuous white line, to a broken line."
+            
+        }
+        if detailTitle.text == "No Rickshaws" {
+            
+            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            
+        }
+        if detailTitle.text == "No Trucks" {
+            
+            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            
+        }
+        if detailTitle.text == "No U Turn" {
+            
+            detailTextView.text = "Where it is prohibited for vehicles to reverse their direction by makingaU turn. This will usually be because the manoeuvre is dangerous or will cause congestion, such as at a gap in the median on a high-speed road, or at a busy junction."
+            
+        }
+        if detailTitle.text == "No Use Of Horn" {
+            
+            detailTextView.text = "Thissign is used outside hospitalsin particular and elsewhere in built-up areas where the use of vehicle hornsis prohibited."
+            
+        }
+        if detailTitle.text == "Ahead Only" {
+            
+            detailTextView.text = "This sign indicates that at the junction vehicular traffic may proceed in a forward direction only. Typically the sign will be used at the approach to a junction in a one way system to indicate the direction of traffic flow.Supplementary plate D13 One Way may be added to explain why the sign is being used."
+            
+        }
+        if detailTitle.text == "Route For Cycles Only" {
+            
+            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            
+        }
+        if detailTitle.text == "Route For Rickshaws Only" {
+            
+            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            
+        }
+        if detailTitle.text == "Turn Left" {
+            
+            detailTextView.text = "Vehicular traffic may only proceed in the direction indicated by the arrow.Typically the sign will be used at a junction in a one way system. It is also commonly used on roundabout central islands (opposite entrances) to stop drivers going the wrong way round the roundabout. Another use isto indicate the direction offlowto traffic joining a dual carriageway from a side road."
+            
+        }
+        if detailTitle.text == "Turn Right" {
+            
+            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            
+        }
+        if detailTitle.text == "Bike Route" {
+            
+            detailTextView.text = "It consists of interstate long-distance cycling routes that use multiple types of bicycling infrastructure, including off-road paths, bicycle lanes, and low-traffic roads."
+            
+        }
+        if detailTitle.text == "Exit" {
+            
+            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            
+        }
+        if detailTitle.text == "Parking" {
+            
+            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            
+        }
+        if detailTitle.text == "Post Office" {
+            
+            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            
+        }
+        if detailTitle.text == "Pedestrian Crossing road" {
+            
+            detailTextView.text = "A pedestrian crossing (British English) or crosswalk (American English) is a place designated for pedestrians to cross a road. Crosswalks are designed to keep pedestrians together where they can be seen by motorists, and where they can cross most safely across the flow of vehicular traffic."
+            
+        }
+        if detailTitle.text == "Speed Limit Road" {
+            
+            detailTextView.text = "Road speed limits are used in most countries to set the maximum (or minimum in some cases) speed at which road vehicles may legally travel on particular stretches of road. ... Speed limits are normally indicated on a traffic sign."
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {
